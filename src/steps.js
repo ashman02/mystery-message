@@ -18,4 +18,5 @@
 - react-email to make template of email
 - made api response to send response
 - that's it with our setup now write api 
+- we have registered user and sent the verifictation code 
  */

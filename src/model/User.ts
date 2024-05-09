@@ -21,13 +21,13 @@ const MessageSchema: Schema<Message> = new Schema({
 
 //making schema of user in same file
 export interface User extends Document {
-  username: string
-  email: string
-  password: string
-  verifyCode: string
-  verifyCodeExpiry: Date
-  isVerified: boolean
-  isAcceptingMessage: boolean
+  username: string;
+  email: string;
+  password: string;
+  verifyCode: string;
+  verifyCodeExpiry: Date;
+  isVerified: boolean;
+  isAcceptingMessage: boolean;
   messages: Message[]
 }
 
