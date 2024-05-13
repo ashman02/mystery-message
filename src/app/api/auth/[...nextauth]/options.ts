@@ -54,15 +54,6 @@ export const authOptions: NextAuthOptions = {
   //we are adding user details in token and session so we dont have to make api calls
   //we have to modifie the user in next-auth.d.ts
   callbacks: {
-    async session({ session, token }) {
-      if (token) {
-        session.user._id = token._id
-        session.user.isVerified = token.isVerified
-        session.user.isAcceptingMessages = token.isAcceptingMessages
-        session.user.username = token.username
-      }
-      return session
-    },
     async jwt({ token, user }) {
       if (user) {
         token._id = user._id?.toString()
@@ -72,6 +63,16 @@ export const authOptions: NextAuthOptions = {
       }
       return token
     },
+    async session({ session, token }) {
+      if (token) {
+        session.user._id = token._id
+        session.user.isVerified = token.isVerified
+        session.user.isAcceptingMessages = token.isAcceptingMessages
+        session.user.username = token.username
+      }
+      return session
+    },
+    
   },
   //changing the default url
   pages: {

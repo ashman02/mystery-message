@@ -26,4 +26,20 @@
 - modified token and session 
 - middleware
 - for testing session provider set
+
+11 may 
+5 otp verification and unique username
+- we made a route that check if entered username is available
+- made a route that checks if a verification code is correct by matching it with the code we have give user
+
+13 may 
+6. Message Api with aggregation api
+- a post request to toggle message acceptance status 
+- and a get request to get message acceptance status
+- we have used session to know the logged in user
+
+- aggregation pipeline to get user messages 
+- used unwind and group too.
+
+- a route that get message and pushes that message in user message array
  */
