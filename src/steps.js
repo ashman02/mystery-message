@@ -42,4 +42,9 @@
 - used unwind and group too.
 
 - a route that get message and pushes that message in user message array
+
+14 may
+7. Api Intingration 
+- vercel ai,
+- we have a prompt we will ask ai to generate messages based on the prompt
  */
