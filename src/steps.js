@@ -47,4 +47,19 @@
 7. Api Intingration 
 - vercel ai,
 - we have a prompt we will ask ai to generate messages based on the prompt
+
+14 May 
+8. React hook form , shadcn , debouncing 
+- set up shadcn 
+- we will user react hook form from shadcn
+- we are using axios to make requests
+- we make isLoding , isChecking, isSubmitting manually
+- zod to verify form
+
+- checking the username if it is unique or not
+- for debouncing we used a library
+
+- configured form with zod resolver
+- made a function when we submit our data 
+- now make form step by step from shad cn
  */
