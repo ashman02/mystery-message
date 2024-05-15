@@ -62,4 +62,8 @@
 - configured form with zod resolver
 - made a function when we submit our data 
 - now make form step by step from shad cn
+
+
+15 may - 
+- otp verification
  */
