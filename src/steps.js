@@ -66,4 +66,14 @@
 
 15 may - 
 - otp verification
+
+16 may 
+sign in user with next auth
+
+16 may 
+Navbar and Message card
+- made navbar 
+- learned how to get access of session and use it
+- how to sign out
+- Message card
  */
