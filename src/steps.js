@@ -76,4 +76,9 @@ Navbar and Message card
 - learned how to get access of session and use it
 - how to sign out
 - Message card
+
+17 may 
+Dashboard 
+- optimistic ui
+- for toggle the accept messages status we have user use form to maintian consistency
  */
